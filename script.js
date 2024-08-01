@@ -446,7 +446,7 @@ function showResult() {
     // if there's a tie for highest count, make OTHER category highest value
     const highestCount = Math.max(...Object.values(userAnswers));
     let count = Object.values(userAnswers).filter(value => value === highestCount).length;
-    if (count > 1) {userAnswers["I"] = 20};
+    if (highestCount == 2) {userAnswers["I"] = 20};
     
     // find highest occurrence in answers then assign category
     const highestCountType = Object.keys(userAnswers).reduce((a, b) => userAnswers[a] > userAnswers[b] ? a : b);
