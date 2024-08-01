@@ -1,0 +1,125 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #B6E5FC;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000;
+}
+
+.quiz-container {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: #B6E5FC;
+    color: #0b032d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%; 
+    max-width: 400px; 
+    font-weight: bold; 
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: #04063C;
+    font-size: 28px;
+    font-weight: bold; 
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: #04063C;
+    font-size: 20px;
+}
+
+p1 {
+    font-family: 'Inter', sans-serif;
+    color: #04063C;
+    font-size: 12px;
+}
+
+.start-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 32px;
+    margin-top: 20px;
+}
+
+.start-button:hover {
+    color: white;
+    background-color: #04063C; 
+}
+
+.ending-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.restart-button, .share-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 32px;
+    margin-top: 20px;
+}
+.restart-button:hover, .share-button:hover {
+    color: white;
+    background-color: #04063C; 
+}
+
+.answer-option {
+    font-family: 'Inter', sans-serif;
+    display: block;
+    width: 80%;
+    font-size: 20px;
+    max-width: 800px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    background-color: white;
+    color: #04063C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.answer-option:hover {
+    background-color: #04063C;
+    color: white;
+}
+
+.top-image {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+.logo-image {
+    max-width: 75%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.image-container {
+    text-align: center; 
+    margin: 20px 0; 
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+

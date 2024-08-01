@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VesselTypePersona</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="quiz-container">
+        <!-- starting page -->
+        <div class="start-page" id="start-page">
+            <!-- title and description of page --> 
+            <h1>What Vessel Type Are You?</h1>
+            <p>Find Out Now!</p>
+
+            <!-- quiz cover image-->
+            <img src="images/main.gif" class="top-image">
+            <!-- start button -->
+            <p1>A fun personality quiz made by Marine Exchange of Puget Sound!</p1>
+            <br>
+            <button id="start-button" class="start-button"> Play </button>
+
+            <!-- bottom description of quiz --> 
+            <br><br><br>
+            <a href="http://https://marexps.com/" target="_blank">
+                <img src="images/Logo.png" class="logo-image">
+            </a>
+        </div>
+        <!-- end of starting page div -->
+
+        <!-- quiz page-->
+        <!-- display is none because want to HIDE until quiz starts -->
+        <div class="quiz-page" id="quiz-page" style="display: none;">
+            <div id="quiz">
+                <!-- questions with images, and choice buttons will be generated here dynamically using JavaScript -->
+            </div>
+
+            <!-- results div-->
+            <div id="result" style="display: none;">
+                <p>Share Your Results!</p>
+                
+                <!-- display results title here -->
+                <div class="result-title">
+                    <!-- Result text and keywords will go here -->
+                </div>
+
+                <!-- display results image here-->
+                <div class="result-image">
+                    <img id="result-image" src="" alt="Result Image">
+                </div>
+                <br>
+
+                <!-- display results text here -->
+                <div class="result-text">
+                        <!-- Result text and keywords will go here -->
+                </div>
+            
+                <!-- button to take the quiz again & share results--> 
+                 <!-- <div class = "ending-buttons">
+                    <button class="restart-button">Retake the Quiz!</button></a> 
+                    <button class="share-button">Share your Results!</button></a>
+                </div> -->
+
+                <!-- ending credits -->
+                <br><br>
+                <a href="http://https://marexps.com/" target="_blank">
+                    <img src="images/Logo.png" class="logo-image">
+                </a>
+                <br>
+
+            </div>
+            <!-- end of results div-->
+        </div>
+        <!-- end of quiz page div -->
+    </div>
+    <!-- end of quiz container div -->
+
+    <script src="script.js"></script>
+</body>
+</html>
+
